@@ -1,7 +1,3 @@
-/*#cover {*/
-/*    width: 50%;*/
-/*}*/
-
 html, body {
     width: 100%;
     height: 100%;
@@ -15,4 +11,19 @@ html, body {
     rgba(0, 0, 50, 0.7)),
     url(img/balloon-3.jpg) no-repeat center;
     background-size: cover;
+}
+
+.text-centering {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    color: lightgreen;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 35px;
 }
