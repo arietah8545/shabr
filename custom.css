@@ -1,7 +1,8 @@
-html, body {
+html,
+body {
     width: 100%;
     height: 100%;
-  }
+}
 
 #landing {
     display: table;
@@ -32,3 +33,36 @@ h2 {
     text-align: center;
     font-size: 40px;
 }
+
+#home img {
+        width: 25%;
+        height: 25%;
+        margin: auto;
+    }
+
+@media(min-width:768px) {
+    #home img {
+        width: 75%;
+        height: 75%;
+    }
+}
+
+@media(min-width:992px) {
+    #home img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.jumbotron {
+    margin: auto;
+    margin: 30px;
+}
+
