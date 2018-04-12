@@ -27,3 +27,8 @@ h1 {
 h2 {
     font-size: 35px;
 }
+
+.info h1 {
+    text-align: center;
+    font-size: 40px;
+}
