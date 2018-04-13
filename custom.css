@@ -86,17 +86,10 @@ h3 {
     width: 50%;
 }
 
-.jumbotron {
-    margin: auto;
-    margin: 30px;
-}
-
 #home {
-    background: #F0F0F0;
-    /*display: inline-block;*/
-    padding: 10px;
-    margin: auto;
     text-align: center;
+    width: 90%;
+    margin: auto;
 }
 
 h3 {
