@@ -112,7 +112,6 @@ p {
     text-align: center;
 }
 
-
 #gallery {
     margin:auto;
 }
@@ -126,4 +125,8 @@ p {
 .carousel-inner > .item > a > img{
 width: 100%; /* use this, or not */
 margin: auto;
+}
+
+#copyright {
+    text-align: center;
 }
