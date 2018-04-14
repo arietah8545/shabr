@@ -47,6 +47,18 @@ h3 {
         margin: auto;
     }
 
+.contact h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: IBM Plex Serif, serif;
+}
+
+.contact h4 {
+    font-size: 20px;
+    text-align: center;
+    font-family: PT Sans Narrow, serif;
+}
+
 @media(min-width:768px) {
     #home img {
         width: 20%;
@@ -62,7 +74,10 @@ h3 {
         font-size: 20px;
     }
     .contact h1 {
-        font-size: 100px;
+        font-size: 50px;
+    }
+    .contact h4 {
+        font-size: 30px;
     }
 }
 
@@ -79,6 +94,12 @@ h3 {
     }
     #info p {
         font-size: 20px;
+    }
+    .contact h1 {
+        font-size: 55px;
+    }
+    .contact h4 {
+        font-size: 30px;
     }
 }
 
@@ -131,14 +152,5 @@ margin: auto;
 }
 
 #copyright {
-    text-align: center;
-}
-
-.contact h1 {
-    font-size: 30px;
-    text-align: center;
-}
-
-.contact h4 {
     text-align: center;
 }
