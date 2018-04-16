@@ -46,6 +46,10 @@ h3 {
     height: 25%;
     margin: auto;
 }
+#testomonials h1 {
+    font-size: 30px;
+    text-align: center;
+}
 
 .contact h1 {
     font-size: 30px;
@@ -79,6 +83,9 @@ h3 {
     .contact h4 {
         font-size: 30px;
     }
+    #testomonials h1 {
+        font-size: 50px;
+    }
 }
 
 @media(min-width:992px) {
@@ -100,6 +107,9 @@ h3 {
     }
     .contact h4 {
         font-size: 30px;
+    }
+    #testomonials h1 {
+        font-size: 55px;
     }
 }
 
@@ -164,9 +174,4 @@ margin: auto;
 
 #copyright {
     text-align: center;
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> f8160e4e307cf8348dd780c3a88c4d1489da0b74
