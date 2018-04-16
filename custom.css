@@ -42,10 +42,10 @@ h3 {
 }
 
 #home img {
-        width: 25%;
-        height: 25%;
-        margin: auto;
-    }
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
 
 .contact h1 {
     font-size: 30px;
@@ -137,12 +137,24 @@ p {
 }
 
 #gallery {
-    margin:auto;
+    margin: auto;
 }
 
-.c-wrapper{
+.c-wrapper {
     width: 90%;
     margin: auto;
+}
+
+<<<<<<< HEAD
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    margin: auto;
+}
+
+.a {
+    background-color: gray;
+    /*color: ;*/
 }
 
 .carousel-inner > .item > img, 
@@ -155,8 +167,3 @@ margin: auto;
     text-align: center;
 }
 
-.beforeScroll {
-    height: 100px;
-    width: 100%
-    display: none;
-}
