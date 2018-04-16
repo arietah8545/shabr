@@ -83,8 +83,8 @@ h3 {
     .contact h4 {
         font-size: 30px;
     }
-    #testomonials h1 {
-        font-size: 50px;
+    #testimonials h4 {
+        font-size:20px;
     }
 }
 
@@ -108,8 +108,13 @@ h3 {
     .contact h4 {
         font-size: 30px;
     }
-    #testomonials h1 {
-        font-size: 55px;
+    #testimonials h4 {
+        font-size:20px;
+    }
+}
+@media(min-width:1200px) {
+    #testimonials h4 {
+        font-size:30px;
     }
 }
 
@@ -162,8 +167,27 @@ p {
 }
 
 .a {
-    background-color: gray;
-    /*color: ;*/
+    background-color: #FFE6D0;
+}
+
+.b {
+    background-color: #FFF9CE;
+}
+
+.c {
+    background-color: #f0fff0;
+}
+
+.d {
+    background-color: #f0f8ff;
+}
+
+.e {
+    background-color: #FFDFEF;
+}
+
+.f {
+    background-color: #e6e6fa;
 }
 
 .carousel-inner > .item > img, 
