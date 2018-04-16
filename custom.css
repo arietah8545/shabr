@@ -154,3 +154,9 @@ margin: auto;
 #copyright {
     text-align: center;
 }
+
+.beforeScroll {
+    height: 100px;
+    width: 100%
+    display: none;
+}
