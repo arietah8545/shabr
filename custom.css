@@ -32,7 +32,8 @@ h2 {
     color: #FF0000;
 }
 
-h3, h4 {
+h3,
+h4 {
     font-family: 'Merriweather', serif;
 }
 
@@ -58,7 +59,7 @@ h3, h4 {
     font-family: IBM Plex Serif, serif;
 }
 
-.contact h4 {
+.contact p {
     font-size: 20px;
     text-align: center;
     font-family: PT Sans Narrow, serif;
@@ -78,17 +79,20 @@ h3, h4 {
     #info p {
         font-size: 20px;
     }
-    .contact h1 {
-        font-size: 50px;
-    }
-    .contact h4 {
-        font-size: 30px;
-    }
     #testimonials h1 {
         font-size: 50px;
     }
     #testimonials h4 {
-        font-size:20px;
+        font-size: 20px;
+    }
+    .contact h1 {
+        font-size: 50px;
+    }
+    .contact p {
+        font-size: 30px;
+    }
+    h6 {
+        font-size: 20px;
     }
 }
 
@@ -106,22 +110,26 @@ h3, h4 {
     #info p {
         font-size: 20px;
     }
-    .contact h1 {
-        font-size: 55px;
-    }
-    .contact h4 {
-        font-size: 30px;
-    }
     #testimonials h1 {
         font-size: 55px;
     }
     #testimonials h4 {
-        font-size:20px;
+        font-size: 20px;
+    }
+    .contact h1 {
+        font-size: 55px;
+    }
+    .contact p {
+        font-size: 35px;
+    }
+    h6 {
+        font-size: 25px;
     }
 }
+
 @media(min-width:1200px) {
     #testimonials h4 {
-        font-size:30px;
+        font-size: 30px;
     }
 }
 
@@ -197,10 +205,11 @@ p {
     background-color: #e6e6fa;
 }
 
-.carousel-inner > .item > img, 
-.carousel-inner > .item > a > img{
-width: 100%; /* use this, or not */
-margin: auto;
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    /* use this, or not */
+    margin: auto;
 }
 
 #copyright {
