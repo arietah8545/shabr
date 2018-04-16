@@ -42,10 +42,10 @@ h3 {
 }
 
 #home img {
-        width: 25%;
-        height: 25%;
-        margin: auto;
-    }
+    width: 25%;
+    height: 25%;
+    margin: auto;
+}
 
 @media(min-width:768px) {
     #home img {
@@ -113,16 +113,21 @@ p {
 }
 
 #gallery {
-    margin:auto;
+    margin: auto;
 }
 
-.c-wrapper{
+.c-wrapper {
     width: 90%;
     margin: auto;
 }
 
-.carousel-inner > .item > img, 
-.carousel-inner > .item > a > img{
-width: 100%; /* use this, or not */
-margin: auto;
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 100%;
+    margin: auto;
+}
+
+.a {
+    background-color: gray;
+    /*color: ;*/
 }
