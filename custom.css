@@ -46,6 +46,10 @@ h3, h4 {
     height: 25%;
     margin: auto;
 }
+#testomonials h1 {
+    font-size: 30px;
+    text-align: center;
+}
 
 .contact h1 {
     font-size: 30px;
@@ -108,7 +112,6 @@ h3, h4 {
         font-size:20px;
     }
 }
-
 @media(min-width:1200px) {
     #testimonials h4 {
         font-size:30px;
