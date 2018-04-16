@@ -145,7 +145,6 @@ p {
     margin: auto;
 }
 
-<<<<<<< HEAD
 .carousel-inner>.item>img,
 .carousel-inner>.item>a>img {
     width: 100%;
@@ -156,7 +155,7 @@ p {
     background-color: gray;
     /*color: ;*/
 }
-=======
+
 .carousel-inner > .item > img, 
 .carousel-inner > .item > a > img{
 width: 100%; /* use this, or not */
@@ -166,4 +165,3 @@ margin: auto;
 #copyright {
     text-align: center;
 }
->>>>>>> d33250701291909fc2ae2803be85025f00a4df3e
