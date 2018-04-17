@@ -120,7 +120,32 @@ h4 {
         font-size: 55px;
     }
     #testimonials h4 {
-        font-size: 20px;
+        font-size: 23px;
+    }
+    #test1 {
+        height: 190px;
+        padding-top: 9px;
+        margin-bottom: 30px;
+    }
+    #test2 {
+        height: 190px;
+        padding-top: 20px;
+    }
+    #test3 {
+        height: 190px;
+        padding-top: 22px;
+        margin-bottom: 30px;
+    }
+    #test4 {
+        height: 190px;
+    }
+    #test5 {
+        height: 190px;
+        margin-bottom: 30px;
+    }
+    #test6 {
+        height: 190px;
+        padding-top: 10px;
     }
     .contact h1 {
         font-size: 55px;
@@ -135,10 +160,25 @@ h4 {
 
 @media(min-width:1200px) {
     #testimonials h4 {
-        font-size: 30px;
+        font-size: 25px;
     }
     .in1 {
         width: 700px;
+    }
+    #test1 {
+        padding: 18px;
+    }
+    #test3 {
+        padding-top: 19px;
+    }
+    #test4 {
+        padding-top: 17px;
+    }
+    #test5 {
+        padding-top: 6px;
+    }
+    #test6 {
+        padding-top: 4px;
     }
 }
 
